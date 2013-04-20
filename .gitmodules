@@ -1,0 +1,3 @@
+[submodule "subcut"]
+	path = subcut
+	url = https://github.com/dickwall/subcut.git
