@@ -7,3 +7,24 @@
 [submodule "slashem"]
 	path = slashem
 	url = git@github.com:foursquare/slashem.git
+[submodule "scalaz"]
+	path = scalaz
+	url = git@github.com:scalaz/scalaz.git
+[submodule "util"]
+	path = util
+	url = git@github.com:twitter/util.git
+[submodule "scala_school"]
+	path = scala_school
+	url = git@github.com:twitter/scala_school.git
+[submodule "gabbler"]
+	path = gabbler
+	url = git@github.com:hseeberger/gabbler.git
+[submodule "scalaz-in-action"]
+	path = scalaz-in-action
+	url = git@github.com:hseeberger/scalaz-in-action.git
+[submodule "scalatra"]
+	path = scalatra
+	url = git@github.com:scalatra/scalatra.git
+[submodule "swagger-core"]
+	path = swagger-core
+	url = git@github.com:wordnik/swagger-core.git
