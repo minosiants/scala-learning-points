@@ -28,3 +28,6 @@
 [submodule "swagger-core"]
 	path = swagger-core
 	url = git@github.com:wordnik/swagger-core.git
+[submodule "fpinscala"]
+	path = fpinscala
+	url = git@github.com:pchiusano/fpinscala.git
