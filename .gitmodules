@@ -1,3 +1,9 @@
 [submodule "subcut"]
 	path = subcut
 	url = https://github.com/dickwall/subcut.git
+[submodule "scalikesolr"]
+	path = scalikesolr
+	url = git@github.com:seratch/scalikesolr.git
+[submodule "slashem"]
+	path = slashem
+	url = git@github.com:foursquare/slashem.git
