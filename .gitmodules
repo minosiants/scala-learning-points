@@ -31,3 +31,6 @@
 [submodule "fpinscala"]
 	path = fpinscala
 	url = git@github.com:pchiusano/fpinscala.git
+[submodule "spray"]
+	path = spray
+	url = git://github.com/spray/spray.git
