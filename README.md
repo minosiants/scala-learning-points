@@ -12,6 +12,9 @@ https://github.com/n8han/giter8/wiki/giter8-templates
 
 *typesafehub/scala-sbt* Plain scala project template
 
+### The Neophyte's Guide to Scala
+http://danielwestheide.com/scala/neophytes.html
+
 
 ### Scalaz State Monad
 Source code - https://github.com/mpilquist/scalaz-state-talk
