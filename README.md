@@ -6,6 +6,13 @@ http://git-scm.com/book/ch6-6.html
 
 git submodule add git://github.com/chneukirchen/rack.git rack
 
+
+### giter8 templates
+https://github.com/n8han/giter8/wiki/giter8-templates
+
+*typesafehub/scala-sbt* Plain scala project template
+
+
 ### Scalaz State Monad
 Source code - https://github.com/mpilquist/scalaz-state-talk
 [![Scalaz State Monad](http://img.youtube.com/vi/Jg3Uv_YWJqI/0.jpg)](http://www.youtube.com/watch?v=Jg3Uv_YWJqI)
