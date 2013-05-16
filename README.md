@@ -12,6 +12,8 @@ https://github.com/n8han/giter8/wiki/giter8-templates
 
 *typesafehub/scala-sbt* Plain scala project template
 
+[a catalog of giter8 templates](http://yobriefca.se/g8ling/)
+
 ### The Neophyte's Guide to Scala
 http://danielwestheide.com/scala/neophytes.html
 
