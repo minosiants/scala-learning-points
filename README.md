@@ -7,7 +7,7 @@ http://git-scm.com/book/ch6-6.html
 git submodule add git://github.com/chneukirchen/rack.git rack
 
 https://github.com/debasishg/cqrs-akka.git
-
+https://github.com/debasishg/scala-snippets.git
 
 
 ### giter8 templates
