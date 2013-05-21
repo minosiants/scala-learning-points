@@ -6,6 +6,9 @@ http://git-scm.com/book/ch6-6.html
 
 git submodule add git://github.com/chneukirchen/rack.git rack
 
+https://github.com/debasishg/cqrs-akka.git
+
+
 
 ### giter8 templates
 https://github.com/n8han/giter8/wiki/giter8-templates
