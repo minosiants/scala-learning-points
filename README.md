@@ -1,5 +1,17 @@
 scala-learning-points
 =====================
+
+## To read
+resources from [Scala Sunday](http://www.meetup.com/ny-scala/events/118373392/)
+
+https://github.com/pk11/streaming-with-chunked-responses
+
+http://www.michaelpollmeier.com/akka-work-pulling-pattern/
+
+http://plastic-idolatry.com/erik/sunday2013/#title
+
+
+
 6.6 Git Tools - Submodules
 
 http://git-scm.com/book/ch6-6.html
