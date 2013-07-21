@@ -33,6 +33,9 @@ https://github.com/n8han/giter8/wiki/giter8-templates
 http://danielwestheide.com/scala/neophytes.html
 
 
+
+xclip -sel clip < ~/.ssh/id_rsa.pub
+
 ### Scalaz State Monad
 Source code - https://github.com/mpilquist/scalaz-state-talk
 [![Scalaz State Monad](http://img.youtube.com/vi/Jg3Uv_YWJqI/0.jpg)](http://www.youtube.com/watch?v=Jg3Uv_YWJqI)
