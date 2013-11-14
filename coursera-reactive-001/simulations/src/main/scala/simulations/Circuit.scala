@@ -2,6 +2,7 @@ package simulations
 
 import common._
 import scala.language.postfixOps
+import scala.annotation.tailrec
 
 class Wire {
   private var sigVal = false
@@ -20,6 +21,7 @@ class Wire {
     actions = a :: actions
     a()
   }
+  override def toString = s"val: $sigVal"
 }
 
 abstract class CircuitSimulator extends Simulator {
@@ -74,23 +76,26 @@ abstract class CircuitSimulator extends Simulator {
     val ia, ib, oab = new Wire
     inverter(a, ia)
     inverter(b, ib)
-    andGate(ia, ia, oab)
+    andGate(ia, ib, oab)
     inverter(oab, output)
   }
 
   def demux(in: Wire, c: List[Wire], out: List[Wire]) {
 
-    def loop(o: List[Wire], c: List[Wire]):Unit = o match {
-      case Nil => 
-      case h :: Nil => andGate(in, c.head, h)
-      case _ => loop(o.tail, c.tail)
+    val activeOut = out.takeRight(c.size)
+    val inActiveOut = out.take(out.size - activeOut.size)
+    inActiveOut.foreach(andGate(new Wire, new Wire, _))
+
+    @tailrec
+    def loop(c: List[Wire], out: List[Wire], outSize: Int) {
+      if (outSize == c.size) {
+        c zip(out) foreach(e => andGate(in, e._1, e._2))
+      } else if (outSize >= c.size) loop(c, out.tail, out.size)
+      else loop(c.tail, out, out.size)
+
     }
 
-    val active=out.takeRight(c.size)
-    val inActive=out.take(out.size-active.size)
-    inActive.foreach(andGate(new Wire, new Wire, _))
-    loop(active, c)
-
+    if (!activeOut.isEmpty && !c.isEmpty) loop(c, activeOut, activeOut.size)
   }
 
 }
